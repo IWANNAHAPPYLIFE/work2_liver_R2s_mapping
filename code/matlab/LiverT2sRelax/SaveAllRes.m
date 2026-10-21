@@ -1,0 +1,10 @@
+roiMultiEchoData = ydata;
+qsaveastxt('roiMultiEchoData',roiMultiEchoData);
+roiMultiEchoTE = xdata;
+qsaveastxt('roiMultiEchoTE',roiMultiEchoTE);
+qsaveastxt('roiT2AutoTrunc',T2_AutoTruncRes);
+qsaveastxt('roiT2Offset',T2_OffsetRes);
+qsaveastxt('roiNCEXPRes',T2_NCEXPRes);
+qsaveastxt('roiSQEXPRes',T2_SQEXPRes);
+qsaveastxt('roiSQEXPResFix',T2_SQEXPRes_fixsigma);
+qsaveastxt('roiNCEXPResFix',T2_NCEXPRes_fixsigma);

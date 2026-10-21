@@ -121,3 +121,21 @@ __pycache__/
 
 # Original large dataset
 liverdata/
+# ============================================================
+# MATLAB experimental data / outputs
+# ============================================================
+
+# Liver experimental data
+code/matlab/M1NCMLUT_R2sMapping/liver_data/
+
+# Generated results
+code/matlab/M1NCMLUT_R2sMapping/Result_M1NCM/
+
+# Subject / ROI masks
+code/matlab/M1NCMLUT_R2sMapping/*_mask.mat
+
+# Manuscript files - not part of executable source
+code/matlab/M1NCMLUT_R2sMapping/manuscript/
+
+# MATLAB temporary files
+*.asv
