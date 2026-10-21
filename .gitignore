@@ -1,0 +1,123 @@
+# ============================================================
+# Large datasets
+# ============================================================
+liverdata/
+
+# TensorFlow datasets
+*.tfrecords
+
+# NumPy arrays / intermediate results
+*.npy
+*.npz
+
+# Medical images
+*.dcm
+*.nii
+*.nii.gz
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Archives
+*.rar
+*.zip
+*.7z
+
+# Model / checkpoint files
+*.v2
+*.h5
+*.pth
+*.pt
+*.ckpt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Training / experiment output
+logs/
+runs/
+outputs/
+output/
+results/
+result/
+checkpoints/
+cache/
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+# ==========================================
+# Experimental / training outputs
+# ==========================================
+
+# Training logs and metrics
+**/log.csv
+**/log*.csv
+**/metrics_results.csv
+**/best_metrics_per_case.csv
+
+# Prediction outputs
+**/test_pred/
+**/pred_test_*/
+**/pred_*/
+
+# GT / prediction dumps
+**/sample*_GT.txt
+**/sample*_pred.txt
+
+# TensorFlow generated model/output directories
+**/checkpoints/
+**/logs/
+**/results/
+**/outputs/
+
+# Large data
+*.npy
+*.npz
+*.tfrecords
+*.dcm
+*.nii
+*.nii.gz
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Weights / saved models
+*.h5
+*.v2
+*.pth
+*.pt
+*.ckpt
+
+# Archives
+*.rar
+*.zip
+*.7z
+
+# Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Original large dataset
+liverdata/
